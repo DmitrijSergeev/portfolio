@@ -2,7 +2,7 @@
 export const Logo = () => {
     return (
         <div>
-            Logo
+            Story of a developer
         </div>
     );
 };
