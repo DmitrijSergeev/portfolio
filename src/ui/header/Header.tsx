@@ -3,7 +3,7 @@ import {Menu} from "@/ui/header/menu/Menu.tsx";
 
 export const Header = () => {
     return (
-        <div className={'flex justify-around mt-5'}>
+        <div className={'flex justify-around items-start w-full mt-5'}>
             <Logo/>
             <Menu/>
         </div>
