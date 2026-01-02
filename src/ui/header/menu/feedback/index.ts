@@ -1,1 +1,1 @@
-export * from './FeedBack'
+export * from './FeedBackPage'

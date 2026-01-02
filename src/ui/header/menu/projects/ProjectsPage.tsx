@@ -1,4 +1,4 @@
-export const Projects = () => {
+export const ProjectsPage = () => {
     return (
         <div>
             Projects

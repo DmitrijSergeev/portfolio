@@ -1,4 +1,4 @@
-export const FeedBack = () => {
+export const FeedBackPage = () => {
     return (
         <div>
             FeedBack

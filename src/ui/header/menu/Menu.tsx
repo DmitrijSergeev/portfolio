@@ -1,13 +1,11 @@
-import {About} from "@/ui/header/menu/about/About.tsx";
-import {FeedBack} from "@/ui/header/menu/feedback/FeedBack.tsx";
-import {Projects} from "@/ui/header/menu/projects";
+import { NavLink } from "react-router-dom";
 
 export const Menu = () => {
     return (
-        <div className={'flex gap-4'}>
-            <Projects/>
-            <About/>
-            <FeedBack/>
-        </div>
+        <nav className="flex gap-6">
+            <NavLink to="/projects">Projects</NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/feedback">Feedback</NavLink>
+        </nav>
     );
 };
